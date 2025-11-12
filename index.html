@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavindu Jayasankha</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Model Viewer (for GLB/gltf models) -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kavindu Jayasankha">Kavindu Jayasankha</h1>
+
+          <p class="title">Mechanical Design Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kavindujayasankha@gamail.com" class="contact-link">kavindujayasankha@gamail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <!-- swapped phone icon for WhatsApp logo per request -->
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">WhatsApp</p>
+
+              <!-- open WhatsApp chat using wa.me (international format without + or spaces) -->
+              <a href="https://wa.me/94768310680" class="contact-link" target="_blank" rel="noopener">+94 76 831 0680</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-05-04">May 04, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Galle, Sri Lanka</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kavindu-jayasankha" class="social-link" target="_blank" rel="noopener">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Get in Touch</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a Mechanical Design Engineer passionate about turning ideas into real, practical engineering solutions. I specialize in 3D CAD design, CNC manufacturing, and mechanical system development, creating designs that are accurate, efficient, and ready for production.<br><br>
+            I like to blend creativity with solid engineering principles to make sure every design works well, looks right, and performs as expected. My work is guided by clear thinking, smart optimization, and a practical design approach that keeps projects moving forward.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/engineering-svgrepo-com(1).svg" alt="Product Design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Product Design</h4>
+                <p class="service-item-text">Development of detailed mechanical components and assemblies using SolidWorks and AutoCAD.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/cube-svgrepo-com.svg" alt="3D Modeling icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Modeling & Simulation</h4>
+                <p class="service-item-text">High-quality modeling and analysis with a focus on functionality, strength, and DFM principles.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/engineering-svgrepo-com.svg" alt="Manufacturing Support icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Manufacturing Support</h4>
+                <p class="service-item-text">Designing for CNC machining, sheet metal fabrication, and real-world manufacturability.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/telescope-observatory-svgrepo-com.svg" alt="Robotics & Automation icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robotics & Automation Concepts</h4>
+                <p class="service-item-text">Exploring innovative mechanical systems for automation and control applications.</p>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+        <!-- testimonials and clients sections removed -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          <a href="./assets/Kavindu_Jayasankha_Kalehe_Acharige.pdf" download="Kavindu_Jayasankha_Resume.pdf" class="download-btn">
+            <span>Download Resume</span>
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pandit Deendayal Energy University</h4>
+
+              <span>2019 – 2024</span>
+
+              <p class="timeline-text">B.Tech in Mechanical Engineering. Full scholarship recipient. Focused on mechanical design, robotics, and manufacturing systems.</p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Design Engineer – Openco International</h4>
+
+              <span>Dec 2024 – Present</span>
+
+              <p class="timeline-text">Product and component design using SolidWorks and AutoCAD. Supporting CNC and sheet metal manufacturing.</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Product Designer Trainee – Meklet Metal Technology Pvt Ltd</h4>
+
+              <span>Oct 2024 – Dec 2024</span>
+
+              <p class="timeline-text">Assisted in mechanical design, prototyping, and process optimization.</p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <div class="skills-grid">
+            <div class="skill-card content-card">
+              <h4 class="skill-card-title">Design &amp; Engineering</h4>
+              <div class="skill-tags">
+                <span class="skill-tag">SolidWorks</span>
+                <span class="skill-tag">AutoCAD</span>
+                <span class="skill-tag">Sheet Metal Design</span>
+                <span class="skill-tag">FEA &amp; Simulation</span>
+                <span class="skill-tag">Product Design</span>
+                <span class="skill-tag">Design for Manufacturability (DFM)</span>
+              </div>
+            </div>
+            <div class="skill-card content-card">
+              <h4 class="skill-card-title">Manufacturing &amp; Systems</h4>
+              <div class="skill-tags">
+                <span class="skill-tag">CNC Manufacturing</span>
+                <span class="skill-tag">Robotics &amp; Automation Concepts</span>
+                <span class="skill-tag">Refrigeration &amp; Air Conditioning</span>
+                <span class="skill-tag">Heat Transfer</span>
+                <span class="skill-tag">Thermodynamics</span>
+              </div>
+            </div>
+            <div class="skill-card content-card">
+              <h4 class="skill-card-title">Professional &amp; Communication Skills</h4>
+              <div class="skill-tags">
+                <span class="skill-tag">Technical Documentation</span>
+                <span class="skill-tag">Team Collaboration</span>
+                <span class="skill-tag">Client Communication</span>
+                <span class="skill-tag">Project Coordination</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <!-- Kept a single sample project as requested -->
+
+          <ul class="project-list">
+
+      <li class="project-item active"
+    data-model="./assets/portfolio/enclosure/3denclosure.glb" data-description="Developed in SolidWorks using sheet metal design tools, optimized for CNC laser cutting and fabrication. The enclosure was engineered for high precision, easy assembly, and reliable protection of internal electrical components."
+        data-related-images="./assets/portfolio/enclosure/enclosure1.png,./assets/portfolio/enclosure/enclosure2.png,./assets/portfolio/enclosure/enclosure3.png">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/enclosure/enclosure1.png" alt="Electrical metal enclosure" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Electrical Metal Enclosure</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item active"
+                data-model="./assets/portfolio/booth/3dbooth.glb" 
+                data-description="A sample powder coating booth designed in SolidWorks for testing and small-scale applications. The unit features a unique filtration system that combines a wire mesh frame with a removable fabric filter, connected to a blower-driven outlet vent for efficient powder collection and airflow control. The design ensures clean operation, easy maintenance, and effective powder recovery within a compact footprint."
+                 data-related-images="./assets/portfolio/booth/booth1.png,./assets/portfolio/booth/booth2.png,./assets/portfolio/booth/booth3.png,./assets/portfolio/booth/booth4.png">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/portfolio/booth/booth1.png" alt="Small Powder Booth" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sample Powder Booth</h3>
+              </a>
+            </li>
+
+            <li class="project-item active"
+                data-model="./assets/portfolio/cyclone/3dcyclone.glb"
+                data-description="A high-efficiency dust separation unit designed in SolidWorks for powder coating applications. Engineered to minimize air pollution, the system uses cyclone separation technology to effectively capture and remove fine powder particles from the airflow. The design emphasizes aerodynamic performance, durable construction, and compatibility with industrial filtration setups."
+                data-related-images="./assets/portfolio/cyclone/cyclone1.png,./assets/portfolio/cyclone/cyclone2.png,./assets/portfolio/cyclone/cyclone3.png">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/portfolio/cyclone/cyclone1.png" alt="Cyclone Dust Collector" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cyclone Dust Collector</h3>
+              </a>
+            </li>
+
+            <li class="project-item active"
+                data-model="./assets/portfolio/baghouse/3dbaghouse1.glb,./assets/portfolio/baghouse/3dbaghouse2.glb"
+                data-description="A custom-designed baghouse dust collector for industrial applications, created in SolidWorks. This system is engineered for high-volume air filtration, featuring multiple filter bags for efficient particulate capture. The design includes a robust housing and hopper, optimized for durability and ease of maintenance. The second 3D model shows a detailed view of the internal filter cage assembly."
+                data-related-images="./assets/portfolio/baghouse/baghouse1.png,./assets/portfolio/baghouse/baghouse2.png,./assets/portfolio/baghouse/baghouse3.png,./assets/portfolio/baghouse/baghouse4.png">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/portfolio/baghouse/baghouse1.png" alt="Baghouse Dust Collector" loading="lazy">
+                </figure>
+                <h3 class="project-title">Baghouse Dust Collector</h3>
+              </a>
+            </li>
+
+            <li class="project-item active"
+                data-model="./assets/portfolio/oven/3doven.glb"
+                data-description="An industrial-grade convection oven engineered specifically for powder coating applications. Designed in SolidWorks with a focus on efficient heat circulation and precise temperature regulation using gas burners. The construction emphasizes sheet metal durability, energy efficiency, and ease of fabrication for reliable, long-term operation in demanding production environments."
+                data-related-images="./assets/portfolio/oven/oven1.png,./assets/portfolio/oven/oven2.png,./assets/portfolio/oven/oven3.png">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/portfolio/oven/oven1.png" alt="Gas Convection Oven" loading="lazy">
+                </figure>
+                <h3 class="project-title">Gas Convection Oven</h3>
+              </a>
+            </li>
+
+            <li class="project-item active"
+                data-model="./assets/portfolio/base/3dbase.glb"
+                data-description="A reverse-engineered machine base developed in SolidWorks to replicate an imported design and reduce production costs. Built for fabrication efficiency, the structure ensures excellent stability, vibration control, and precise component mounting. The design emphasizes durability, manufacturability, and cost-effective local production."
+                data-related-images="./assets/portfolio/base/base1.PNG,./assets/portfolio/base/base2.PNG,./assets/portfolio/base/base3.PNG,./assets/portfolio/base/base4.png">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/portfolio/base/base1.PNG" alt="Powder Coating Machine Base" loading="lazy">
+                </figure>
+                <h3 class="project-title">Powder Coating Machine Base</h3>
+              </a>
+            </li>
+
+            <li class="project-item active"
+                data-model="./assets/portfolio/toolbox/3dtoolbox.glb"
+                data-description="A custom toolbox designed in SolidWorks for CNC cutting and streamlined fabrication. Engineered for caravans, the design features robust sheet metal construction, weather resistance, and optimized internal space. It ensures precise manufacturability and a clean, professional finish with minimal production effort."
+                data-related-images="./assets/portfolio/toolbox/toolbox1.png,./assets/portfolio/toolbox/toolbox2.png">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/portfolio/toolbox/toolbox1.png" alt="Caravan Toolbox" loading="lazy">
+                </figure>
+                <h3 class="project-title">Caravan Toolbox</h3>
+              </a>
+            </li>
+
+            <li class="project-item active"
+                data-model="./assets/portfolio/brackets/3dbrackets.glb"
+                data-description="A set of precision-engineered mounting brackets, designed in SolidWorks to replicate and enhance the performance of damaged originals. These brackets are optimized for CNC laser cutting and fabrication, ensuring high structural strength, material efficiency, and seamless installation in industrial setups."
+                data-related-images="./assets/portfolio/brackets/brackets1.png,./assets/portfolio/brackets/brackets2.png,./assets/portfolio/brackets/brackets3.png">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/portfolio/brackets/brackets1.png" alt="Mounting Brackets" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mounting Brackets</h3>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!-- Blog removed per request -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="get in touch">
+
+        <header>
+          <h2 class="h2 article-title">Get in Touch</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <div class="form-status"></div>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - emailjs cdn link
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/project-modal.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
